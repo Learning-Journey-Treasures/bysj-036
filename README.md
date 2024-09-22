@@ -1,37 +1,27 @@
-# bysj-036
+# 1.项目简介
+- 测试环境：idea2022，Tomcat8.5，MySQL5.7，Navicat，Maven，微信小程序开发工具
+-技术选型：SSM，JSP，MySQL，原生微信小程序
 
-#### 介绍
-基于SSM的心理健康测试系统+微信小程序 ,测试环境：idea2022，Tomcat8.5，MySQL5.7，Navicat，Maven，微信小程序开发工具,技术选型：SSM，JSP，MySQL，原生微信小程序
+# 2.系统部署
+## 2.1 后端部署
+- 首先通过navicat创建数据库xljk，导入数据库sql文件，按照本地环境，修改项目中src/main/resources/jdbc.properties中的1-4行
+- 通过idea打开项目xljk，注意是Maven项目
+- 创建本地Tomcat Server，注意路径配置为http://localhost:8080/xljk/（小程序请求的地址是这个，当然这个是随意改的，前提是你会修改）
+- 启动tomcat，管理web地址：http://localhost:8080/xljk/hlogin/viewlogin  账号密码：admin/123456
 
-#### 软件架构
-软件架构说明
+## 2.2 小程序部署
+- 打开微信开发工具
+- 导入小程序项目，appid选择测试号即可
+- 注册个账号，然后登录，注意登录账号是“学号”！！！！，不是nickname！！！！
 
+# 3.项目部分截图
+![输入图片说明](0.png)
+![输入图片说明](1.png)
+![输入图片说明](2.png)
+![输入图片说明](3.png)
+![输入图片说明](4.png)
+![输入图片说明](5.png)
+![输入图片说明](6.png)
 
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+# 4.获取方式
+[戳我查看](https://gitee.com/aven999/mall)
